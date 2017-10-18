@@ -1,0 +1,11 @@
+repository: itsinthewiki/itsinthewiki.github.io
+
+# Dependencies
+markdown:       kramdown
+highlighter:    rouge
+
+kramdown:
+  auto_ids:     true
+
+# Permalinks
+permalink:      pretty

@@ -2,7 +2,7 @@
 
 ## Permabans:
 
-TODO add link
+List of current permabans [link](permabans.md)
 
 ## Rules:
 

@@ -1,5 +1,5 @@
 repository: itsinthewiki/itsinthewiki.github.io
-
+timezone: AEST
 # Dependencies
 markdown:       kramdown
 highlighter:    rouge
@@ -9,3 +9,6 @@ kramdown:
 
 # Permalinks
 permalink:      pretty
+
+exclude:
+    - _site/

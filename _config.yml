@@ -1,5 +1,5 @@
 repository: itsinthewiki/itsinthewiki.github.io
-
+timezone: AEST
 # Dependencies
 markdown:       kramdown
 highlighter:    rouge

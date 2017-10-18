@@ -9,3 +9,6 @@ kramdown:
 
 # Permalinks
 permalink:      pretty
+
+exclude:
+    - _site/

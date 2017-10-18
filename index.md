@@ -14,3 +14,5 @@ Rules of *The Wiki*:
 The current rules and events recorded by *The Wiki* 
 
  - [smash](smash)
+
+Hats can be used to block rain rays. 

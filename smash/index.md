@@ -18,4 +18,7 @@ List of current permabans [link](permabans.md)
  - The first match is always a freindly and doesn't count. 
  - The second match is always a warm up and doesn't count.
 
+### Gamepad Rules:
+
+ - Three stocked to a player using the gamepad requires the losing player to by the winner a [chocolate bar](choc_bar.md) of their choosing.
 

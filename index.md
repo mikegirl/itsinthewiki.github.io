@@ -11,8 +11,10 @@ Rules of *The Wiki*:
 
 *The Wiki* contains all of the rules and regulations. It also contains a record of significant events: past, present **and** future.
 
-The current rules and events recorded by *The Wiki* 
+The current rules and events recorded by *The Wiki*
 
  - [smash](smash)
 
-Hats can be used to block rain rays. 
+Hats can be used to block rain rays.
+
+-[Business Ideas](bizideas)

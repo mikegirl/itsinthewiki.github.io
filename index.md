@@ -17,4 +17,3 @@ The current rules and events recorded by *The Wiki*
 
 Hats can be used to block rain rays.
 
--[Business Ideas](bizideas)

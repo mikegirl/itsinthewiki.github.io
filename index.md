@@ -16,4 +16,5 @@ The current rules and events recorded by *The Wiki*
  - [smash](smash)
 
 Hats can be used to block rain rays.
+He who pays for the coffee, chooses the name for the order. 
 

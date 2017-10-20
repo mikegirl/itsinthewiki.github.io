@@ -17,6 +17,8 @@ List of current permabans [link](permabans.md)
  - In a free-for-all, if there are only two players remaining and it is down to one stock, then the player with the higher percentage can ask the other player to become damaged to "even it up". This is entirely optional and the player with the lower percentage can decline, but must give a good reason.
  - The first match is always a freindly and doesn't count. 
  - The second match is always a warm up and doesn't count.
+ - In a free-for-all if a player chooses their main, the other players can pick Dr. Mario and team up.
+ - Prior to a match if you make a claim that you will beat the player and then proceed to lose. You are considered a bad player and should feel bad.
 
 ### Gamepad Rules:
 

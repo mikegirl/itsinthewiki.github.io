@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>skitsometer</title>
+    <link rel="stylesheet" href="spectre.min.css">
+    <style>
+        .gauge {
+            height: 150px;
+            width: 300px;
+            background-color: #1b1f23;
+            border-top-left-radius: 150px;
+            border-top-right-radius: 150px;
+            position: relative;
+            margin: 120px auto auto;
+        }
+        .flipper {
+            height: 12px;
+            width: 150px;
+            background-color: #aa0000;
+            position: absolute;
+            bottom: 0;
+            transform-origin: right;
+            border-top-left-radius: 100%;
+            border-bottom-left-radius: 100%;
+        }
+    </style>
+    <meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1.0, user-scalable=no" />
+</head>
+<body>
+<div class="container">
+    <div class="columns">
+        <div class="col-3 col-sm-1"></div>
+        <div class="col-6 col-sm-10">
+            <div class="gauge">
+                <div id="flipper" class="flipper" style="transform: rotate(0deg);"></div>
+            </div>
+            <h1 class="text-center">skits-o-meter</h1>
+            <div class="input-group pt-2 mt-2">
+                <input id="skits" title="skits" class="form-input" autofocus>
+            </div>
+            <p class="text-gray text-center">Type in the thing you think is skitz and we'll measure it.</p>
+        </div>
+        <div class="col-3 col-sm-1"></div>
+    </div>
+</div>
+<script type="text/javascript">
+    var flipper = document.getElementById("flipper");
+    var skits = document.getElementById("skits");
+
+    var skitsThings = {
+      "skit": 5,
+      "skits": 10,
+      "ketamine": 15,
+      "spooky": 1,
+      "smash": 2,
+      "falcon": 4,
+      "knee": 6,
+      "rest": 6,
+      "punch": 9,
+      "girl": 8,
+      "crazy": 5,
+      "dude": 5,
+      "duude": 5,
+      "duuude": 7,
+      "duuuude": 9,
+      "duuuuude": 11,
+      "duuuuuude": 13,
+      "sick": 5
+    };
+
+    var multipliers = {
+      "read": 1.5,
+      "bait": 1.8
+    };
+
+    var getRotation = function(val) {
+      return "rotate(" + val + "deg)"
+    };
+
+    skits.addEventListener("keyup", function() {
+      var sentence = skits.value;
+      var terms = sentence.split(" ");
+      var skitsness = 0;
+      for (var i = 0; i < terms.length; i++) {
+        var skitThing = skitsThings[terms[i]];
+        if (skitThing !== undefined) {
+          skitsness += skitThing;
+        }
+        var skitMultiplier = multipliers[terms[i]];
+        if (skitMultiplier !== undefined) {
+          skitsness *= skitMultiplier;
+        }
+      }
+      if (skitsness > 180) {
+        skitsness = 180;
+      }
+      console.log(skitsness);
+      flipper.style.transform = getRotation(skitsness);
+    })
+</script>
+</body>
+</html>

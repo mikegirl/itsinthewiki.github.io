@@ -9,6 +9,8 @@ A player can have their character permaban in any of the following circumstances
  - They are three-stocked by the same person in a free-for-all.
  - If both players agree, they can permaban individial skins for a character instead of a character.
 
+A permaban only counts for three stock matches (permabanned characters can be used in two stock matches, for instance).
+
 List of current permabans [link](permabans.md)
 
 ## Rules:

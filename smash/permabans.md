@@ -1,3 +1,9 @@
 # Permabans
 
-Currently no permabans exist.
+Harry
+- Yoshi
+
+Yusuf
+
+
+Mike

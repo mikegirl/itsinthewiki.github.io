@@ -14,13 +14,6 @@ Rules of *The Wiki*:
 The current rules and events recorded by *The Wiki*
 
  - [smash](smash)
-
-Hats can be used to block rain rays.
-
-He who pays for the coffee, chooses the name for the order. 
-
-Lethal Weapon directors cut on VHS is considered to be one of the greatest film franchises of all time. Unless otherwise stated by The Wiki.
-
-Pigeons have feelings.
+ - [general](general)
 
 

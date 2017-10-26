@@ -6,7 +6,8 @@
  - Pigeons have feelings.
  - We dont like bats.
  - Clapping multiple times when a bat is present is an effective defensive mechanism.
-
+ - Should a hooman man see the chan of a hooman wooman, there is a possibility he will coom involuntarily.
+ 
 # Weather Forecast:
  - There will be weather today.
  - In the event of a storm we must fly North.

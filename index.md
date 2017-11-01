@@ -17,3 +17,9 @@ The current rules and events recorded by *The Wiki*
  - [general](general)
 
 
+# Hall of Fame 
+The following have managed to win a 1v2 against the other 2 members in the Doctor Mario gauntlet round: 
+
+ 1. Mike's Ganon
+ 2. Mike's DK
+ 
